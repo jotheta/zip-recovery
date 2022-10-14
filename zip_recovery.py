@@ -5,8 +5,6 @@ import time
 import sys
 import hashlib
 
-# Specify some initial values such as the file name
-
 input_file_name = 'file.zip'
 extensive_input_charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._*+,!?/:'
 input_charset = 'abcdefghijklmnopqrstuvwxyz'
@@ -15,7 +13,7 @@ input_charset = 'abcdefghijklmnopqrstuvwxyz'
 
 def unzip(password):
 
-# Why is the name 'file' required after the 'as'
+
 	try:
 		
 		wrong_password = False
